@@ -1,1 +1,1 @@
-# Django-with-determination-Following-Pinterest-with-Django
+# Django with determination Following Pinterest with Django
