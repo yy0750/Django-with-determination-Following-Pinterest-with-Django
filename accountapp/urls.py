@@ -6,6 +6,10 @@ from accountapp.views import hello_world, AccountCreateView
 app_name = "accountapp"
 
 
+class AccounteUpdateView:
+    pass
+
+
 urlpatterns = [
     path('hello_world/', hello_world, name='hello_world'),
 
@@ -14,5 +18,6 @@ urlpatterns = [
 
     path('create/', AccountCreateView.as_view(), name='create'),
     path('detail/<int:pk>', AccountCreateView.as_view(), name='detail'),
+    path('update/<int:pk>', AccounteUpdateView.as_view(), name='update'),
 
 ]
