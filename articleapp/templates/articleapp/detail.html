@@ -29,8 +29,11 @@
             class="btn btn-danger rounded-pill col-3">
                 Delete
             </a>
-            {% endbif %}
+            {% endif %}
             <hr>
+
+            {% include 'commentapp/create.html' with article=target_article %}
+
         </div>
     </div>
 
