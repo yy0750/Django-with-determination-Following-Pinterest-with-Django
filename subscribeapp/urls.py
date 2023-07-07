@@ -5,5 +5,7 @@ from subscribeapp.views import SubscriptionView
 app_name = 'subscribeapp'
 
 urlpatterns = [
-    path('subscribe/', SubscriptionView.as_view(), name='subscribe')
+    path('subscribe/', SubscriptionView.as_view(), name='subscribe'),
+    path('list/', SubscriptionView.as_view(), name='list'),
+
 ]
